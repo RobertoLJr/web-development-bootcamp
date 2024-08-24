@@ -6,4 +6,5 @@ Each section represents a directory containing code files and assets as well as 
 
 ## Sections
 
-- [Section 1 - Introduction to HTML](./section-1-introduction-to-html/)
+- [Section 1 - Introduction to HTML](./1%20Introduction%20to%20HTML/)
+- [Section 2 - Intermediate HTML](./2%20Intermediate%20HTML/)
