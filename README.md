@@ -11,3 +11,4 @@ Each section represents a directory containing code files and assets as well as 
 - [Section 3 - Multi-Page Websites](./3%20Multi-Page%20Websites/)
 - [Section 4 - Captstone Project 1 [Online Resume]](./4%20Capstone%20Project%201%20[Online%20Resume]/)
 - [Section 5 - Introduction to CSS](./5%20Introduction%20to%20CSS/)
+- [Section 6 - CSS Properties](./6%20CSS%20Properties)
