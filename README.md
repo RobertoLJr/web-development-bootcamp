@@ -14,3 +14,4 @@ Each section represents a directory containing code files and assets as well as 
 - [Section 6 - CSS Properties](./6%20CSS%20Properties)
 - [Section 7 - Intermediate CSS](./7%20Intermediate%20CSS%20[CSS%20Flag]/)
 - [Section 8 - Advanced CSS](./8%20Advanced%20CSS%20[Web%20Design%20Agency%20Website]/)
+- [Section 9 - CSS Flex](./9%20CSS%20Flex/)

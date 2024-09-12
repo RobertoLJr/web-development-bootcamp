@@ -1,0 +1,148 @@
+body {
+  font-family: "Sono", sans-serif;
+  background-color: #222222;
+}
+
+.pricing-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.pricing-plan {
+  flex: 1;
+  min-width: 400px;
+  max-width: 400px;
+  height: 600px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 5%;
+  background-color: black;
+  color: white;
+}
+
+.pricing-plan > * {
+  margin-bottom: 40px;
+}
+
+ul {
+  text-align: left;
+}
+
+.basic {
+  position: relative;
+}
+
+.basic > * {
+  position: relative;
+  z-index: 2;
+}
+
+.basic-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./assets/img/helmet.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: 2;
+  border-radius: 5%;
+}
+
+.standard {
+  position: relative;
+}
+
+.standard > * {
+  position: relative;
+  z-index: 2;
+}
+
+.standard-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./assets/img/mounted-warrior.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: 2;
+  border-radius: 5%;
+}
+
+.premium {
+  position: relative;
+}
+
+.premium > * {
+  position: relative;
+  z-index: 2;
+}
+
+.premium-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./assets/img/greek-warriors.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  z-index: 2;
+  border-radius: 5%;
+}
+
+.plan-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.plan-price {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.plan-features {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plan-features > li {
+  margin: 10px;
+}
+
+.plan-button {
+  width: 100px;
+  position: absolute;
+  padding: 10px;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  left: 175px;
+  bottom: 20px;
+}
+
+@media (max-width: 1250px) {
+  .pricing-container {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .pricing-plan {
+    flex-basis: 600px;
+  }
+}
